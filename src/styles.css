@@ -1,5 +1,7 @@
 * {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 body {
   font-family: sans-serif;
@@ -25,19 +27,15 @@ label.logo {
 
 .nav-items-list {
   display: inline-block;
-  margin: 0 5px;
+  margin: 20px 5px;
   padding: 3px 6px;
-}
-.nav-items-list {
-  color: white;
-  padding: 2px;
 }
 
 .nav-items-list.active,
 .nav-items-list:hover {
   background-color: white;
   border-radius: 3px;
-  padding: 2px;
+  padding: 3px 6px;
   color: black;
 }
 
